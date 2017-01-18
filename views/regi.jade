@@ -1,0 +1,20 @@
+html
+
+  body(background='/home/vignesh/vignesh/practise/mail/public/images/login_img.png')
+    form(action='/register/reg', method='post')
+      | NAME:
+      input(type='text', name='name', value='',required)
+      br
+      | Email:
+      input(type='text', name='email', value='',required)
+      br
+      | password:
+      input(type='password', name='pass', value='',required)
+      br
+      | Message:
+      input(type='text', name='msg', value='',required)
+      br
+      | Phone number:
+      input(type='text', name='ph', value='',required)
+      br
+      input(type='submit', name='submit', value='SIGN UP')
